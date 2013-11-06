@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleDesignPrinciples", "StyleDesignPrinciples.csproj", "{F3F6C77C-F09D-4432-86FD-98587340F457}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleDesignPrinciples.Tests", "..\StyleDesignPrinciples.Tests\StyleDesignPrinciples.Tests.csproj", "{0258DEBC-DA17-4165-95C6-07D9F1AAD720}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{F3F6C77C-F09D-4432-86FD-98587340F457}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3F6C77C-F09D-4432-86FD-98587340F457}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3F6C77C-F09D-4432-86FD-98587340F457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0258DEBC-DA17-4165-95C6-07D9F1AAD720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0258DEBC-DA17-4165-95C6-07D9F1AAD720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0258DEBC-DA17-4165-95C6-07D9F1AAD720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0258DEBC-DA17-4165-95C6-07D9F1AAD720}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
