@@ -4,6 +4,8 @@
 
     using NUnit.Framework;
 
+    using StyleDesignPrinciples.Model;
+
     public class GridTest
     {
         #region Fields

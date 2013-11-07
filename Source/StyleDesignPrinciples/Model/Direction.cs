@@ -3,7 +3,7 @@
 //   Copyright 2013 Nick Pruehs.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
-namespace StyleDesignPrinciples
+namespace StyleDesignPrinciples.Model
 {
     public enum Direction
     {
