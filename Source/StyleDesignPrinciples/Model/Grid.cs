@@ -36,16 +36,16 @@ namespace StyleDesignPrinciples.Model
         /// <exception cref="ArgumentOutOfRangeException"><paramref name="width"/> or <paramref name="height"/> is less than or equal to zero.</exception>
         public Grid(int width, int height)
         {
-            if (width < 0)
+            if (width <= 0)
             {
                 throw new ArgumentOutOfRangeException(
-                    "width", width, string.Format("width has to be positive."));
+                    "width", width, string.Format("Width has to be positive."));
             }
 
-            if (height < 0)
+            if (height <= 0)
             {
                 throw new ArgumentOutOfRangeException(
-                    "height", height, string.Format("height has to be positive."));
+                    "height", height, string.Format("Height has to be positive."));
             }
 
             this.grid = new T[width, height];
